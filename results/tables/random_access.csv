@@ -1,0 +1,9 @@
+n,structure,operation,mean_time_ms,metric,mean_count,theory
+100,DynamicArray,get,0.195500,accesses,10000.0,Theta(m)
+100,LinkedList,get,0.711100,accesses,511327.0,Theta(m*n)
+1000,DynamicArray,get,0.029500,accesses,10000.0,Theta(m)
+1000,LinkedList,get,5.180440,accesses,5021262.0,Theta(m*n)
+10000,DynamicArray,get,0.014560,accesses,10000.0,Theta(m)
+10000,LinkedList,get,80.996700,accesses,50180278.0,Theta(m*n)
+100000,DynamicArray,get,0.018080,accesses,10000.0,Theta(m)
+100000,LinkedList,get,827.775380,accesses,504933532.0,Theta(m*n)

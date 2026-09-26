@@ -1,0 +1,9 @@
+n,structure,operation,mean_time_ms,metric,mean_count,theory
+100,DynamicArray,contains,0.165620,comparisons,71478.0,Theta(m*n)
+100,LinkedList,contains,0.171520,comparisons,71478.0,Theta(m*n)
+1000,DynamicArray,contains,0.759220,comparisons,700887.0,Theta(m*n)
+1000,LinkedList,contains,1.024380,comparisons,700887.0,Theta(m*n)
+10000,DynamicArray,contains,0.923040,comparisons,7148753.0,Theta(m*n)
+10000,LinkedList,contains,16.064700,comparisons,7148753.0,Theta(m*n)
+100000,DynamicArray,contains,10.459440,comparisons,71335329.0,Theta(m*n)
+100000,LinkedList,contains,107.818680,comparisons,71335329.0,Theta(m*n)

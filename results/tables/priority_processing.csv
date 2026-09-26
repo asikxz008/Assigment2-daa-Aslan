@@ -1,0 +1,9 @@
+n,structure,operation,mean_time_ms,metric,mean_count,theory
+100,MinHeap,insert,0.011980,comparisons,217.0,O(n*log(n))
+100,MinHeap,extractMin,0.025160,comparisons,858.0,O(n*log(n))
+1000,MinHeap,insert,0.031960,comparisons,2188.0,O(n*log(n))
+1000,MinHeap,extractMin,0.066420,comparisons,14995.0,O(n*log(n))
+10000,MinHeap,insert,0.310280,comparisons,22582.0,O(n*log(n))
+10000,MinHeap,extractMin,0.760260,comparisons,216644.0,O(n*log(n))
+100000,MinHeap,insert,1.399900,comparisons,229018.0,O(n*log(n))
+100000,MinHeap,extractMin,7.140700,comparisons,2831804.0,O(n*log(n))
